@@ -7,11 +7,10 @@
     font-family: "Poppins", sans-serif;
     outline: none; border: none;
     text-transform: capitalize;
-    transition: all.2s linear;
 }
 body {
-    background-color:#fff;
-    padding-left: 40px;
+   /* background: #464545; */
+    /* padding-left: 40px; */
     padding-top: 10px;
 }
 header{
@@ -27,8 +26,7 @@ header{
     padding-right: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-     /* background: #fff;  
-    box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1) ; */
+    background-color: #fff;  
     text-decoration: none;
     
 }
@@ -101,7 +99,7 @@ header .navbar a{
     cursor: pointer;  
  }
  .home {
-
+    background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,6 +113,7 @@ header .navbar a{
   
  }
  .home .content {
+    /* background: #fff; */
     text-align: center;
     width: 100%;
     height: 100%; 
@@ -130,6 +129,7 @@ header .navbar a{
 
 }
 .design{
+    /* background: #fff; */
     width: 650px;
     text-align: left;
 }
@@ -154,9 +154,9 @@ header .navbar a{
     padding-left: 210px;
 }
 .col{
+    background: #fff;
     display: inline;
     text-align: left;
-  
     width: 100%;
 }
 
@@ -179,58 +179,65 @@ header .navbar a{
     padding-right: 50px; */
 
 }
-/* .lne{
-    width: 3px;
-    height: 2px;
-    background-color: #f748b3;
-    margin-top: 60px;
-}   */
-/* .small line{
-    width: 30px;
-    height: 10px;
-    background-color: #464545;
-} */
-
-.Industries .heading{
+/* INDUSTRIES  HEADER SECTION */
+.big-container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Industries .industryH1{
 font-size: 1.5rem;
 font-weight: 600;
-text-align: left;
-margin-top: 50px;
-margin-bottom: 50px;
-padding-left: 50px;
-padding-right: 10px;
+width: 40%;
+
+margin-top: -30px;
+justify-content: space-between;
 }
-.Industries p{
+.lines{
+  
+    display: flex; 
+   
+   /* margin-top: 100px; */
+   /* transform:  translate(50%, 50%);  */
+}
+.industry{
+    align-items: left;
+    background: #b8b4b4;
+}
+.industryP p{
     text-align: right;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 20px;
-    margin-top: -50px;
-    padding-right: 100px;
+    margin-top: -40px;
+    padding-right: 290px;
+    margin-bottom: 30px;
 }
-.Industries button{
+.Industries .industryP button{
     padding: 14px 34px; 
     float: right;
-    background:#f748b3 ;
+    background:#f748b3;
     color: #fff; ;
     font-size: 16px;
     font-weight: 600;
     border-radius: 2px;
     transition: all 0.6s ease-in-out;
     cursor: pointer;
-    margin-right: 150px;     
+    margin-right: 400px; 
+        
 }
+/* INDUSTRIES SECTION */
 .B2b .Marketplace{
-    position: absolute;
-   padding-left: 10px;
+   position: absolute;
+   padding-left: 340px;
    padding-top: 90px;
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    gap: 30px;
+   gap: 30px;
+   margin-top: 50px;
+    
 }
 .B2b .tong img { 
   background: #fff;
- 
   padding-left: 10px;
   
 }
@@ -241,6 +248,50 @@ padding-right: 10px;
     padding-left: 30px;
     font-weight: 600;
     padding-top: 10px; 
+}
+.B2b .Marketplace .tong .marketp{
+background: #fff;
+padding-left: 10px;
+}
+.B2b .Marketplace .tong .marketp2{
+    background: #000000;
+    padding-left: 10px;
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp2 .anch{
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp3{
+    background: #444243;
+    padding-left: 10px;
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp3 .anch{
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp4{
+    background: #f748b3;
+    padding-left: 10px;
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp4 .anch{
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp5{
+    background: #000;
+    padding-left: 10px;
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp5 .anch{
+    color: #fff;
+}
+.B2b .Marketplace .tong .marketp6{
+    background: #ffffff;
+    padding-left: 10px;
+    color: #000;
+}
+.B2b .Marketplace .tong .marketp6 .anch{
+    color: #000;
 }
 .B2b .Marketplace .tong .anch{
     font-size: 12px;
@@ -261,11 +312,15 @@ padding-right: 10px;
     object-fit: cover;
    
 }
+.B2b .Marketplace .marketimg1{
+    background: #f748b3;
+}
 .B2b .b2b a {
 font-size: 16px;
 color: #f748b3;
 font-weight: 600;
 }
+
 .B2b .b2b  h5 {
 font-size: 16px;
 font-weight: 600;
@@ -284,7 +339,7 @@ margin-top: 5px;
 .process .contain{
     position: relative;
      background: #fff;   
-    top: 2000px;
+    top: 2500px;
     width: 100%;
     height: 100vh;
 
